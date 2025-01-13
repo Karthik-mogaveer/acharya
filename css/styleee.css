@@ -1,0 +1,186 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+    background-color:darkblue;
+    
+
+}
+.navbar-link{
+    list-style:none;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    color: #eceff4;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.hero{
+    height: 550px;
+    background-image: url(/image/acharyagang.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
+    text-align: center;
+    padding-top: Opx;
+    flex-wrap: wrap;
+}
+.hero-title{
+    font-size:  45px;
+    background:orange;
+    padding: 10px;
+    font-weight: bold;
+}
+.hero-lead{
+    font-size: 35px;
+    background:orange;
+    font-weight: bold;
+}
+/* .hero-btn{
+    background:#0952ce;
+    color: black;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+} */
+ .about{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: antiquewhite;
+ }
+ .section-title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ .section-lead{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+ }
+ .about-layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+ }
+ .about-text{
+    line-height: 2;
+ }
+ .value{
+    background: #dcffa0;
+    padding: 25px;
+    flex-wrap: wrap;
+    
+ }
+ .value-flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+ }
+ .destination{
+    padding: 35px;
+    background-color: rgb(76, 247, 247);
+}
+.destination-grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+    text-align: center;
+    gap: 35px;
+}
+.grid-item img{
+    width: 60%;
+    border: 2px solid #070303;
+    border-radius: 15px;
+}
+.value-flex img{
+    border: 2px solid #070303;
+    border-radius: 15px;
+}
+.contact{
+    background: #c0d6ff;
+    padding: 35px;
+}
+.contact-card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding:20px ;
+    width: 450px;
+    margin: auto;
+}
+.label{
+    display: block;
+}
+input,textarea{
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn-primary{
+    background:#2a74ff ;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.text-center{
+    text-align: center;
+}
+footer{
+    background: #000000;
+    padding: 10px;
+    color:#ffffff ;
+    text-align: center;
+}
+.btn-center{
+    text-align: center;
+}
+.form-item{
+    font-weight: bold;
+}
+.grid-item:hover img{
+    transform: scale(1.1);
+    /* margin-bottom: 20px; */
+    transition: 0.3s ease;
+}
+.grid-item{
+    transition: 0.3s ease;
+}
+.value-card:hover img{
+    transform: scale(1.1);
+    
+    transition: 0.3s ease;
+}
+.value-card{
+    transition: 0.3s ease;
+}
+.btn-primary:hover{
+    transform: scale(1.1);
+}
+.a:hover{
+    transform: scale(1.1);
+}
